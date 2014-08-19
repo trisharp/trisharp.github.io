@@ -1,0 +1,224 @@
+html, body {
+	    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	margin: 0;
+}
+
+h2 {
+	font-size:150%;
+	padding: 0;
+}
+
+#home {
+  background: url(../imgs/blur12.jpg) 50% 0 repeat fixed; min-height: 1000px;
+  height: 1000px; 
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
+}
+
+#home article {
+  height: 458px; 
+  position: absolute; 
+  text-align: center; 
+  top: 300px; 
+  width: 100%; 
+  font-size: 500%;
+  font-weight:100;
+}
+
+#about {
+  background: url(../imgs/blur15.jpg) 50% 0 repeat fixed; min-height: 1000px;
+  height: 1000px; 
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+#about article {
+  height: 458px; 
+  position: absolute; 
+  text-align: center; 
+  top: 100px; 
+  width: 100%;
+  font-size: 500%;
+    font-weight:100;  
+}
+
+#contact {
+  background: url(../imgs/blur12.jpg) 50% 0 repeat fixed; min-height: 1000px;
+  height: 1000px; 
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+#contact article {
+  height: 458px; 
+  position: absolute; 
+  text-align: center; 
+  top: 100px; 
+  width: 100%;
+  font-size: 500%;
+  font-weight:100; 
+}
+
+.boxed {
+	height: 300px;
+	width: 500px;
+	background-color:black;
+	-webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  opacity: 0.6;
+  position: relative;
+  left: 40%;
+  top: 60%;
+  font-size: 150%;
+  font-weight: 100;
+  padding: 15 15 15 15;
+}
+
+.aboutbox {
+	height: 340px;
+	width: 50%;
+	background-color:black;
+	-webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+	  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+	  opacity: 0.6;
+	  position: relative;
+	  left: 25%;
+	  top: 30%;
+	  font-size: 200%;
+	  font-weight: 100;
+	  padding: 20 20 20 20;
+}
+
+.contactbox {
+	font-size: 50%;
+		height: 360px;
+	width: 50%;
+	background-color:black;
+	-webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+	  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+	  opacity: 0.6;
+	  position: relative;
+	  left: 25%;
+	  top: 30%;
+	  font-size: 200%;
+	  font-weight: 100;
+	  padding: 20 20 20 20;
+}
+
+.social {
+		height: 360px;
+	width: 50%;
+	background-color:black;
+	-webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+	  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+	  opacity: 0.6;
+	  position: relative;
+	  left: 25%;
+	  top: 30%;
+}
+
+img {
+	height: 13%;
+}
+
+.mail {
+	position:relative;
+	top:25%;
+	left:23%;
+}
+
+.facebook {
+	position:relative;
+	top:20%;
+	left:33%;
+}
+
+.twitter {
+	position:relative;
+	top:15%;
+	left:43%;
+}
+
+.gplus {
+	position:relative;
+	top:10%;
+	left:53%;
+}
+
+.linkedin  {
+		position:relative;
+	top:5%;
+	left:63%;
+}
+
+.resized {
+	padding:20px 0;
+}
+
+input[type="text"] {
+	margin: 10px;
+	font-size: 65%;
+}
+
+.bold {
+	font-weight: 500;
+}
+
+.large {
+	font-size: 250%;
+}
+
+#c0{
+	width: 200px;
+	height: 200px; 
+	left: 37%;
+	top: 7%;
+}
+
+#c1 {
+	width: 200px;
+	height: 200px; 
+	left: 55%;
+	top: 60%;
+}
+
+#c2 {
+width: 100px;
+	height: 100px; 
+	left: 40%;
+	top: 50%;
+}
+
+#c3 {
+width: 100px;
+	height: 100px; 
+	left: 45%;
+	top: 85%;	
+}
+
+.circle {
+	border-radius: 50%;
+	position: absolute;
+  	background-color: white;
+  	opacity: 0.6;
+  	-webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+	box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
