@@ -1,8 +1,8 @@
 <html>
 
 <head>
-	<title>Trisha Paul</title>
 	<link href='http://fonts.googleapis.com/css?family=Raleway:100,500' rel='stylesheet' type='text/css'>
+
 	<link rel="stylesheet" href="css/stylesheet.css">
 	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 	<script src="scripts/main.js"></script>
@@ -21,14 +21,29 @@
 		<article>about<span class="bold">me</span>:</article>
 		<div class="aboutbox">
 			<p>i recently graduated from harvard with a degree in <span class="bold">computer science</span> and a secondary in <span class="bold">mind, brain, & behavior</span>.</p>
-			<p>i'm originally from southeast <span class="bold">kansas</span>.</p>
-			<p>i <span class="bold">like</span> tech news, design, typography, food, and feminism.</p>
+			<p>i'm originally from <span class="bold">pittsburg, kansas</span>.</p>
+			<p>i <span class="bold">like</span> tech news, product design, typography, food, and feminism.</p>
 		</div>
 
 	</section> 
 
 	<section id="contact" data-type="background" data-speed="30" class="pages">
 		<article><span class="bold">contact</span>me:</article>
+		<!--<div class="contactbox">
+			<h2>
+				<span class="bold">drop</span>a<span class="bold">note</span>:
+			</h2>
+			<form action="MAILTO:tpaul@college.harvard.edu" method="post" enctype="text/plain">
+				your<span class="bold">name</span>:
+				<input type="text" name="name" value=""><br><br>
+				<span class="bold">email</span>address:
+				<input type="text" name="mail" value=""><br><br>
+				note:
+				<input type="text" class="resized" name="comment" value="" size="50"><br>
+				<input type="submit" value="Send">
+				<input type="reset" value="Reset">
+			</form>
+		</div>-->
 			<div class="mail"><a href="mailto:tpaul@post.harvard.edu" target="_blank"><img src="imgs/email.png" alt="email"></img></a></div>
 			<div class="facebook"><a href="http://www.facebook.com/trsh.paul" target="_blank"><img src="imgs/facebook.png" alt="facebook"></img></a></div>
 			<div class="twitter"><a href="http://www.twitter.com/TrishaRP" target="_blank"><img src="imgs/twitter.png" alt="twitter"></img></a></div>
