@@ -93,7 +93,7 @@ h2 {
 }
 
 .aboutbox {
-	height: 340px;
+	height: auto;
 	width: 50%;
 	background-color:black;
 	-webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
